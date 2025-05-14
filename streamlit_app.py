@@ -16,7 +16,7 @@ height = st.number_input("Height (cm)", min_value=153.0, max_value=195.0, value=
 weight = st.number_input("Weight (kg)", min_value=36.00, max_value=123.00, value=70.00)
 duration = st.number_input("Exercise Duration (minutes)", min_value=1.00, max_value=30.00, value=30.00, step=1.00)
 heart_rate = st.number_input("Heart Rate (bpm)", min_value=67.00, max_value=125.00, value=120.00 , step=1.00)
-body_temp = st.number_input("Body Temperature (°C)", min_value=38.0, max_value=42.0, value=37.0)
+body_temp = st.number_input("Body Temperature (°C)", min_value=37.0, max_value=42.0, value=37.0)
 gender = st.selectbox("Gender", ["Male", "Female"])
 
 
